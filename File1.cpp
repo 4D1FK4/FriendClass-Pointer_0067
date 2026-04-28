@@ -9,5 +9,12 @@ private:
     string nama;
 
 public:
-    void setNama
+    void setNama(string pNama);
+    friend class siswa;
+};
+
+class siswa
+{
+private:
+    int id;
 }
