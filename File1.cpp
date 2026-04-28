@@ -9,3 +9,15 @@ public:
     Node *next;
     Node *prev;
 };
+
+class DoublyLinkedList
+{
+private:
+    Node*START;
+
+public:
+    DoublyLinkedList()
+    {
+        
+    }
+}
